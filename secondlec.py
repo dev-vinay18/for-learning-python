@@ -113,4 +113,6 @@
 #     print("no")
 
 a = int(input("first digit:"))
-b = int
+b = int(input("secound digit:"))
+c = int(input("third digit :"))
+
