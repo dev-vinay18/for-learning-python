@@ -104,3 +104,13 @@
 #     print("yes")
 # else:
 #     print("no")
+
+# year = int(input("year :"))
+
+# if(year%4 == 0):
+#     print("yes")
+# else:
+#     print("no")
+
+a = int(input("first digit:"))
+b = int
