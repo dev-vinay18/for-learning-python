@@ -35,14 +35,14 @@
 # print(student["subject"]["chemistry"])
 
 
-student = {                                                          # for getting key pts. (but don't show nested key pts.)     
-    "name" : "arnav gore",
-    "subject" : {
-        "physics" : 80,
-        "chemistry" : 90,
-        "mathematics" : 95 
-    }
-}
+# student = {                                                          # for getting key pts. (but don't show nested key pts.)     
+#     "name" : "arnav gore",
+#     "subject" : {
+#         "physics" : 80,
+#         "chemistry" : 90,
+#         "mathematics" : 95 
+#     }
+# }
 
 # print(len(student))                                   
 # print(list(student.keys()))                                        # student.keys() it returns all keys.
@@ -60,3 +60,67 @@ student = {                                                          # for getti
 # new_dict = ({"city" : "pune"})                                       # for creating a new dict. (dict. dont allow  dublicate keys.)
 # student.update(new_dict)              
 # print(student)
+
+# print(type(student))
+
+####################################### SET ##############################################
+
+# collection = { 1, 2,2,2, 3 , "hello","hello","world"}                       # in this set every dublicate value is ignored.           
+# print(collection)
+# print(type(collection))
+
+# collection1 = set()                                                     # for empty set. 
+
+# collection2 = set()        
+# collection2.add(1)                                                       # .add for adding values in set.
+# collection2.add(2)
+# collection2.add(2)
+# collection2.add("my")
+# collection2.add("college")
+# collection2.remove(1)                                                    # .remove for removing values in the set.
+
+# collection2.clear()                                                      # .clear for empty the whole set. 
+# print(collection2)  
+# print(len(collection2))
+
+# set = {2,3,4}
+# set0 = {3,4,5}
+# print(set.union(set0))                                                     # .union it show all the values of both the set but dont show repeted values.
+# print(set)
+# print(set.intersection(set0))                                                # .intersection show the similar values of both sets.
+
+################## PRACTICE QUESTIONS #######################
+
+
+# dict3 = {
+#     "table" : ["a piece of furniture" , "list of fact and figures"],          # 1st Q
+#      "cat" : "a small animal"
+# }
+# print(dict3)
+
+# subjects = {"python","java","python","java","c++"                               # 2nd Q
+#          "c","java","c","c++"}
+# print(len(subjects))
+
+# marks = {}                                                                     # 3rd Q
+
+# x = int(input("enter phy :"))
+# marks.update({"phy" : x})
+
+# x = int(input("enter chem :"))
+# marks.update({"chem " : x})
+
+# x = int(input("enter math :"))
+# marks.update({"math" : x})
+
+# print(marks)
+
+values = {9,"9.0"}
+     # OR #
+values1 = {
+    ("float",9.0),
+    ("int",9)
+}
+
+print(values)
+print(values1)
