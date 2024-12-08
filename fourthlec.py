@@ -47,10 +47,16 @@ student = {                                                          # for getti
 # print(len(student))                                   
 # print(list(student.keys()))                                        # student.keys() it returns all keys.
 # print(list(student.values()))                                      # student.values() it returns all value ( nest values also .) 
-pairs = list(student.items())
-print(pairs[1])
-# print(list(student.items()))                                      
- 
+# pairs = list(student.items())                                      # pairs function it gives pairs of that row ( for pair we use '[]' bracket.)
+# print(pairs[0])
+# print(list(student.items()))                                       # in this we gate the values in tuple.
 
+# print(student.get("name"))                                         # if we use .get then we don't gate any error and it just gives none .
+# print(student["name"])                                             # it gives error if the key is wrong thats why in coding we should prefer to write '.get' first.
 
+# student.update({"city" : "pune"})
+# print(student)
 
+# new_dict = ({"city" : "pune"})                                       # for creating a new dict. (dict. dont allow  dublicate keys.)
+# student.update(new_dict)              
+# print(student)
