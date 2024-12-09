@@ -1,13 +1,13 @@
 # arithmetic operators
-# a = 5
-# b = 5
+a = 5
+b = 5
 
 # print(a + b)
 # print(a - b)
 # print(a * b)
 # print(a / b)
 # print(a % b)
-# print(a ** b)
+print(a ** b)
 
 #assignmet operators
 # num = 10
@@ -45,7 +45,7 @@
 
 # print(type(side) ,"area =" , side * side)
 
-a = int(input("firt int number:"))
-b = int(input("second int number:"))
+# a = int(input("firt int number:"))
+# b = int(input("second int number:"))
 
-print("the ans." , a >= b )                                         
+# print("the ans." , a >= b )                                         
