@@ -105,13 +105,82 @@
 #         print("number found at idx :", idx)
 #     idx += 1
 
-s = "apnacollege"
+# s = "apnacollege"                                                     # practice Q.
 
-for char in s :
-    if(char == 'o'):
-        print("o found")
-        break
-    print(char)
+# for char in s :
+#     if(char == 'o'):
+#         print("o found")
+#         break
+#     print(char)
 
-print("END")
+# print("END") 
 
+############ RANGE ############
+
+## Range function returns a sequence of number starting from 0 by default, and increments by 1 (by default), and stop before a specified number.
+## range(start?,stop,step?)
+
+# for i in range(10):                                               # examples 
+#     print(i)
+
+# for t in range(1,10): 
+#     print(t)
+
+# for f in range(0,10,2):
+#     print(f)
+
+###### practice question ######
+
+# for p in range(1,101):                                              # print numbers from 1 to 100.
+#     print(p)
+
+# for z in range(100,0,-1):                                          # print numbers from 100 to 1.
+    # print(z)
+
+# n =  int(input("enter number :"))                                     # print the multiplication table of no. n
+
+# for c in range(1,11):
+#     print(n * c)
+
+# for y in range():                                                    #  'pass' this used for we will complite this later.
+#     pass
+
+# n = int(input("enter number :"))                                    # WAP to write the sum of first natural numbers.
+# sum = 0
+
+# for i in range(1,n+1):
+#     sum += i
+
+# print("sum of n natural number :", sum)
+
+## same q. using while loop
+
+# n = int(input("enter number :"))
+# sum = 0 
+# i = 1
+
+# while i <= n :
+#     sum += i
+#     i += 1
+
+# print("print sum :" , sum )
+
+# n = int(input("enter number :"))                                  # WAP to find the factorial of first n number.
+# fact = 1
+
+# for g in range(1,1+n) :
+#     fact *= g
+
+# print("factorial of number :" , fact )
+
+## same Q. using while 
+
+n = int(input("enter number :"))
+fact = 1
+s = 1
+
+while s <= n :
+    fact *= s
+    s += 1
+
+print("factorial of n :" , fact )
