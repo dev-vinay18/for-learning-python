@@ -2,12 +2,14 @@
 a = 5
 b = 5
 
+print(a != b)
+
 # print(a + b)
 # print(a - b)
 # print(a * b)
 # print(a / b)
 # print(a % b)
-print(a ** b)
+# print(a ** b)
 
 #assignmet operators
 # num = 10
