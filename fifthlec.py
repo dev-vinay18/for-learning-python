@@ -175,12 +175,12 @@
 
 ## same Q. using while 
 
-n = int(input("enter number :"))
-fact = 1
-s = 1
+# n = int(input("enter number :"))
+# fact = 1
+# s = 1
 
-while s <= n :
-    fact *= s
-    s += 1
+# while s <= n :
+#     fact *= s
+#     s += 1
 
-print("factorial of n :" , fact )
+# print("factorial of n :" , fact )
