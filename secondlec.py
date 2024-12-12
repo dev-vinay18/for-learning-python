@@ -18,8 +18,8 @@
 # ch = str[4]
 # print(ch)
 
-# str = "temperature"
-# print(str[4])
+str = "temperature"
+print(str[4])
   
 # str = " my repository"                      # slicing
 # print(str[0 : 5])
@@ -112,7 +112,7 @@
 # else:
 #     print("no")
 
-a = int(input("first digit:"))
-b = int(input("secound digit:"))
-c = int(input("third digit :"))
+# a = int(input("first digit:"))
+# b = int(input("secound digit:"))
+# c = int(input("third digit :"))
 
