@@ -47,14 +47,14 @@
 
 ####### practice question ######
 
-cities = ["delhi", "pune", "mumbai","sambhaji nagar", "baramati"]      # WAP to print length of list   ( list is the parameter.)
-fruits = ["apple","banana","kiwi","pine apple"]
+# cities = ["delhi", "pune", "mumbai","sambhaji nagar", "baramati"]      # WAP to print length of list   ( list is the parameter.)
+# fruits = ["apple","banana","kiwi","pine apple"]
 
-def p_len (list):
-    print(len(list))
+# def p_len (list):
+#     print(len(list))
     
-p_len(cities)
-p_len(fruits)
+# p_len(cities)
+# p_len(fruits)
 
 # cities = ["delhi", "pune", "mumbai","sambhaji nagar", "baramati"]      #WAP to print the elements in the list in a single line. ( list is the parameter.)
 # fruits = ["apple","banana","kiwi","pine apple"]
@@ -66,13 +66,17 @@ p_len(fruits)
 # pri_list (cities)
 # print()                                                                # give this empty print at last if we getting this '%'  
 
+# def cal_fact(n):                                                     # Q. WAF to find the factorial of n.(n is the parameter)
+#     fact = 1
+#     for j in range(1,n+1):
+#         fact *= j
+#     print(fact)
 
+# cal_fact(9)
 
+def converter(usd_val):
+    inr_val = usd_val * 83
+    print(usd_val, "USD =", inr_val,"INR")
 
-
-
-
-
-
-
- 
+converter(6)
+    
