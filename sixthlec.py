@@ -39,7 +39,7 @@
 # print("arnav", end=" ")                                             # 'end=' is use for print different value on same line.
 # print("gore")
 
-# def cal_mul(a=1,b=1):                                                # if we dont pass any arguments then we just attach some default values to the a&b given below.
+# def cal_mul(a=1,b=1):                                                # if we dont pass any arguments then we just attach some default values to the a&b given below.(dafault values shoul give at last other whise we will gwt error.)
 #     print(a * b)
 #     return a * b 
 
@@ -47,24 +47,27 @@
 
 ####### practice question ######
 
-# cities = ["delhi", "pune", "mumbai","sambhaji nagar", "baramati"]      # WAP to print length of list   ( list is the parameter.)
-# fruits = ["apple","banana","kiwi","pine apple"]
-
-# def p_len (list):
-#     print(len(list))
-    
-# p_len(cities)
-# p_len(fruits)
-
-cities = ["delhi", "pune", "mumbai","sambhaji nagar", "baramati"]      
+cities = ["delhi", "pune", "mumbai","sambhaji nagar", "baramati"]      # WAP to print length of list   ( list is the parameter.)
 fruits = ["apple","banana","kiwi","pine apple"]
 
-def pri_list (list):
-    for val in list:
-        print(val, end=" ")
+def p_len (list):
+    print(len(list))
+    
+p_len(cities)
+p_len(fruits)
 
-pri_list (cities)
-print()
+# cities = ["delhi", "pune", "mumbai","sambhaji nagar", "baramati"]      #WAP to print the elements in the list in a single line. ( list is the parameter.)
+# fruits = ["apple","banana","kiwi","pine apple"]
+
+# def pri_list (list):
+#     for val in list:
+#         print(val, end=" ")
+
+# pri_list (cities)
+# print()                                                                # give this empty print at last if we getting this '%'  
+
+
+
 
 
 
