@@ -74,9 +74,19 @@
 
 # cal_fact(9)
 
-def converter(usd_val):
-    inr_val = usd_val * 83
-    print(usd_val, "USD =", inr_val,"INR")
+# def converter(usd_val):                                                # Q. convert inr value to USD.
+#     inr_val = usd_val * 83
+#     print(usd_val, "USD =", inr_val,"INR")
 
-converter(6)
+# converter(6)
     
+#### home work Question ###
+
+def function(n):
+    if(n % 2 == 0):
+        print(n," is even number")
+    else:
+        print(n, " is odd number")
+
+function(56)
+
