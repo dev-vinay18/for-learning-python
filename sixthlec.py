@@ -15,13 +15,13 @@
 # print(sum)
 
 # def p_hello():
-#     print("hello")
+#     print("hello")                                               
 
 # p_hello()
 # p_hello()
 # p_hello()
 # p_hello()
-# p_hello()
+# p_hello()                                                         
 
 # output = p_hello()                                                # if function does not give any return value then it will print "None"
 # print(output)
@@ -82,11 +82,23 @@
     
 #### home work Question ###
 
-def function(n):
-    if(n % 2 == 0):
-        print(n," is even number")
-    else:
-        print(n, " is odd number")
+# def function(n):                                                        # is function n is even or odd.
+#     if(n % 2 == 0):
+#         print(n," is even number")
+#     else:
+#         print(n, " is odd number")
 
-function(56)
+# function(56)
+
+###################### Recursion ##########################
+
+## recursive function
+
+def show (n):
+    if(n == 0):
+        return
+    print(n)
+    show(n - 1)
+
+show(9)
 
