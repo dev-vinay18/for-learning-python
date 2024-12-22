@@ -94,11 +94,37 @@
 
 ## recursive function
 
-def show (n):
-    if(n == 0):
-        return
-    print(n)
-    show(n - 1)
+# def show (n):
+#     if(n == 0):          # this is known as " base case " (in given value when n is 0 then it will stop)(we can stop at any value either 0) 
+#         return
+#     print(n)
+#     show(n - 1)
 
-show(9)
+# show(9)
+
+# def fact(n):
+#     if( n== 1 or n== 0):
+#         return 1
+#     return fact(n-1) * n
+
+# print(fact(8))
+
+### Practice question ###
+
+# def calu_sum(n):                # write a recursive function to calculate the sum of first n natural number.
+#     if ( n==0 ):
+#         return 0
+#     return calu_sum(n-1) + n
+
+# print(calu_sum(9))
+
+# def print_list(list, idx=0):               # write a recursive function to print all elements in a list. Hint : use list & ind as a parameter.
+#     if(idx == len(list)):
+#         return
+#     print(list[idx])
+#     print_list(list, idx+1)
+
+# fruits = ["mango" , "apple", "banana", "litchi"]
+
+# print_list(fruits)
 
