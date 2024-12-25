@@ -1,2 +1,2 @@
-this is an new python file.
-for learning python
+new
+language

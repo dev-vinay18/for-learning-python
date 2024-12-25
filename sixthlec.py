@@ -118,7 +118,7 @@
 
 # print(calu_sum(9))
 
-# def print_list(list, idx=0):               # write a recursive function to print all elements in a list. Hint : use list & ind as a parameter.
+# def print_list(list, idx=0):               # write a recursive function to print all elements in a list. Hint : use list & idx as a parameter.
 #     if(idx == len(list)):
 #         return
 #     print(list[idx])

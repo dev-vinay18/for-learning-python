@@ -1,5 +1,7 @@
 ###### File I/O in python #####
-f = open("demo.txt","r")
+## "r" = for reading a file (default,if dont write any other function thin read is defaultly selected.)
+ 
+# f = open("demo.txt","r")
 
 # print(type(data))
 
@@ -15,5 +17,12 @@ f = open("demo.txt","r")
 # line2 = f.readline()
 # print(line2)
 
+# f.close()
 
-f.close()
+## "w" = for writing to a file
+
+f = open("demo.txt","w")
+
+f.write("new")
+
+## "a" = for adding 
