@@ -84,11 +84,19 @@
 #     f.write("hi everyone\nwe are learning file I/O")
 #     f.write("\nUsing java\nI like programming in java.")
 
-# with open ("demo.txt","r") as f:
+# with open ("practice.txt","r") as f:
 #     data = f.read()
 
 # new_data = data.replace("java", "python")
 # print(new_data)
 
-# with open ("demo.txt","w") as f:
+# with open ("practice.txt","w") as f:
 #     f.write(new_data)
+
+word = "learning"
+with open("practice.txt","r") as f :
+    data = f.read()
+    if(data.find(word) != -1):
+        print("found")
+    else:
+        print("not found")
