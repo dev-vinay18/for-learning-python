@@ -93,10 +93,20 @@
 # with open ("practice.txt","w") as f:
 #     f.write(new_data)
 
-word = "learning"
-with open("practice.txt","r") as f :
-    data = f.read()
-    if(data.find(word) != -1):
-        print("found")
-    else:
-        print("not found")
+## Q3
+
+# def check_for_word(word):
+#     word = "learning"
+#     with open("practice.txt","r") as f :
+#         data = f.read()
+#         if(data.find(word) != -1):                          # we can also write "word in data" in if for finding word in data.
+#             print("found")
+#         else:
+#             print("not found")
+
+# check_for_word("new")
+
+def check_for_line():
+    word = "learning"
+    data = True
+    line_no = 1

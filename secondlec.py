@@ -18,8 +18,8 @@
 # ch = str[4]
 # print(ch)
 
-str = "temperature"
-print(str[4])
+# str = "temperature"
+# print(str[4])
   
 # str = " my repository"                      # slicing
 # print(str[0 : 5])
@@ -35,7 +35,7 @@ print(str[4])
 # str = str.capitalize()
 # print(str)
 # print(str.replace("coder" , "singer"))
-# print(str.find("a"))
+# print(str.find("i"))
 # print(str.count("z")) 
 
 # a = input("first name :")                   # practice question
