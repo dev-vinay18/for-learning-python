@@ -35,4 +35,9 @@ class student:
 N1 = student("tejas", 20)
 print(N1.name)
 print(N1.marks)
+
+N2 = student("arnav", 38)
+print(N2.name, N2.marks)
+
+
         
