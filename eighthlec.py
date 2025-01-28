@@ -57,22 +57,50 @@
 
 ## Q
 
-class student:
-    college_name = "hi-tech institue of tech." #class attribute.
+# class student:
+#     college_name = "hi-tech institue of tech." #class attribute.
 
-    def __init__(self,name,marks):
-        self.name = name #object attribute.         (object attribute > class attribute if both have same attribute names)
-        self.marks = marks
+#     def __init__(self,name,marks):
+#         self.name = name #object attribute.         (object attribute > class attribute if both have same attribute names)
+#         self.marks = marks
 
-    def avg_marks(self):
-        sum = 0
-        for val in self.marks:
-            sum += val
-        print("hi", self.name, "your avg score in list :" , sum/3)
+#     def avg_marks(self):
+#         sum = 0
+#         for val in self.marks:
+#             sum += val
+#         print("hi", self.name, "your avg score in list :" , sum/3)
 
-s1 = student("arnav", [77,67,39])
-s1.avg_marks()
-         
+# s1 = student("arnav", [77,67,39])
+# s1.avg_marks() 
+          
+## Important
+## 1) abstraction : hiding the implementation detail of a classand only showing the essential features to the user.
+## 2) Incapsulation : Wrapping data and functions into a singal unit (object). 
+ 
+## Q
+
+# class Account :
+#     def __init__(self,bal,acc):
+#         self.balance = bal
+#         self.account_no = acc
+
+#     def debit(self,ammount):
+#         self.balance -= ammount
+#         print("RS.", ammount, "is debited..")
+#         print("total balance =" , self.get_balance() , "Rs.")
+
+#     def credit(self,ammount):
+#         self.balance += ammount
+#         print("Rs.", ammount, "is credited.. ")
+#         print("total balance =" , self.get_balance(), "Rs.")
+
+#     def get_balance(self):
+#         return self.balance
+
+# acc1 = Account(10000 , 123456)
+# acc1.debit(200)
+# acc1.credit(100)
+    
 
 
  
