@@ -40,7 +40,6 @@
 # print(N2.name, N2.marks)
 
 # class student:
-#     college_name = "ABC college"
 
 #     def __init__(self, name , marks):
 #         self.name = name
@@ -59,9 +58,10 @@
 ## Q
 
 class student:
+    college_name = "hi-tech institue of tech." #class attribute.
 
     def __init__(self,name,marks):
-        self.name = name
+        self.name = name #object attribute.         (object attribute > class attribute if both have same attribute names)
         self.marks = marks
 
     def avg_marks(self):
@@ -72,7 +72,7 @@ class student:
 
 s1 = student("arnav", [77,67,39])
 s1.avg_marks()
-        
+         
 
 
-           
+ 
