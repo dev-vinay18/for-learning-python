@@ -79,27 +79,27 @@
  
 ## Q
 
-# class Account :
-#     def __init__(self,bal,acc):
-#         self.balance = bal
-#         self.account_no = acc
+class Account :
+    def __init__(self,bal,acc):
+        self.balance = bal
+        self.account_no = acc
 
-#     def debit(self,ammount):
-#         self.balance -= ammount
-#         print("RS.", ammount, "is debited..")
-#         print("total balance =" , self.get_balance() , "Rs.")
+    def debit(self,ammount):
+        self.balance -= ammount
+        print("RS.", ammount, "is debited..")
+        print("total balance =" , self.get_balance() , "Rs.")
 
-#     def credit(self,ammount):
-#         self.balance += ammount
-#         print("Rs.", ammount, "is credited.. ")
-#         print("total balance =" , self.get_balance(), "Rs.")
+    def credit(self,ammount):
+        self.balance += ammount
+        print("Rs.", ammount, "is credited.. ")
+        print("total balance =" , self.get_balance(), "Rs.")
 
-#     def get_balance(self):
-#         return self.balance
+    def get_balance(self):
+        return self.balance
 
-# acc1 = Account(10000 , 123456)
-# acc1.debit(200)
-# acc1.credit(100)
+acc1 = Account(10000 , 123456)
+acc1.debit(200)
+acc1.credit(100)
     
 
 
