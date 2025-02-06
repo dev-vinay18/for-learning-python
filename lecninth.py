@@ -24,3 +24,4 @@ class account :
 acc1 = account(23456 , "acgx")
 acc1.acc_no
 print(acc1.acc_no)
+
