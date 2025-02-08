@@ -19,9 +19,15 @@
 class account :
     def __init__( self, acc_no, acc_pass ):
         self.acc_no = acc_no
-        self.acc_pass = acc_pass
+        self.__acc_pass = acc_pass              ## it only use in similar class.
+
+    def __init__(self,reset_pass):
+        print(self.___pass)
 
 acc1 = account(23456 , "acgx")
 acc1.acc_no
-print(acc1.acc_no)
+print(acc1.acc_no) 
+print(acc1.__acc_pass) 
 
+
+ 
