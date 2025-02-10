@@ -32,9 +32,16 @@
 ## private(like) attributes and methods 
 ## conceptual inplimentations in python :private attributes and methods are meant to be used only within the class and are not accessible from outside the class.
   
-class person:
-    __name = "anonyous"
+# class person:
+#     __name = "anonyous"
 
-p1 = person()
+#     def __hello(self):
+#         print("hello person!")
 
-print(p1.__name)
+#     def welcome(self):
+#         self. __hello()
+
+# p1 = person()
+
+# print(p1.welcome())
+
