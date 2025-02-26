@@ -45,4 +45,7 @@
 
 # print(p1.welcome())
 
-print
+####### INHERITANCE #########
+## there are 3 types of inheritance 
+## single lvl , Multi lvl , Multipal lvl 
+
