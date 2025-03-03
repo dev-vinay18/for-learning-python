@@ -3,7 +3,7 @@ for paragraph
 <p> info </p> 
 
 basic html page
-<!Doctype html>                       tells browser you are using HTML5
+<!Doctype html>                       tells browser you are using HTML5 (version 5)
 <html>                                root of an html Doctype document
   <head>                              container for meta data
    <title> My first page </title>     page title
