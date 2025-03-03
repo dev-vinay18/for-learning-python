@@ -9,3 +9,6 @@ basic html page
    <title> My first page </title>     page title
   </head>
   <body>                              contains all data renderd
+    <p> paragraph tag </p>            paragraph tag
+  </body>
+</html>  
