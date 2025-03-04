@@ -12,3 +12,5 @@ basic html page
     <p> paragraph tag </p>            paragraph tag
   </body>
 </html>  
+
+<!-- comment -->                      for comment tag
