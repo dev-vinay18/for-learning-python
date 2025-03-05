@@ -14,3 +14,10 @@ basic html page
 </html>  
 
 <!-- comment -->                      for comment tag
+
+use of atributes in html : attributes are use to added for getting more information to the tag
+
+<html lan="en">
+
+heading tag
+
