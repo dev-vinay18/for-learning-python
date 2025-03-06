@@ -1,4 +1,4 @@
-HTML tags
+# HTML tags
 for paragraph
 <p> info </p> 
 
@@ -19,5 +19,42 @@ use of atributes in html : attributes are use to added for getting more informat
 
 <html lan="en">
 
-heading tag
+# heading tag
 
+there are 6 heading tags H1 to H6 we can use them all in html
+
+if we want to get our paragraph in equal and written properly then do this :
+go to settings > and use view: taggle word wrap  
+
+# Anchor tag :
+used to add links to our page 
+
+<a href="-----link-------">Google</a>
+
+if we use another platform link then it is said absolute link.
+if we use our own platform link then it is said to be relative link.
+
+# image tag 
+it used to add images to our page 
+
+<img src="/image.png" alt="Random Images">
+
+# br tag
+
+used to add next line(line breaks) to your page.
+
+<br>
+
+# Bold,Italic & Underline tags
+Used to highlight text in your page
+
+<b> Bold </b>
+<i> Italic </i>
+<u> Underline </u>
+
+# big tag & small tag 
+
+This used to display big and small text on your page
+
+<big> Big </big>
+<small> Small </small>
