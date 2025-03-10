@@ -58,3 +58,30 @@ This used to display big and small text on your page
 
 <big> Big </big>
 <small> Small </small>
+
+# Hr tag 
+
+Used to display a horizontal rular, use to separate content.
+
+<hr>
+
+# Subscript & Superscript tag
+ <sub> subscript </sub>      for ex. H2O formula 
+
+ <sup> Superscript </sup>    for  ex. A to the power any number.
+
+# pre tag 
+
+Use to display text as it is ( without ignoring space and next line )
+
+<pre> this is sample text. </pre>
+
+# Page layout techniques
+
+Using semaintic tags for layout
+
+using right tags
+
+<header>
+<main>
+<footer>
