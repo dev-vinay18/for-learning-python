@@ -85,3 +85,15 @@ using right tags
 <header>
 <main>
 <footer>
+
+# In main tag there are 3 types of tags
+
+section tag : For asection on your page
+<section>
+
+article tag : For an article on your page
+<article>
+
+Aside Tag : for content a side main content(ads)
+<aside>
+ 
