@@ -66,9 +66,10 @@ Used to display a horizontal rular, use to separate content.
 <hr>
 
 # Subscript & Superscript tag
- <sub> subscript </sub>      for ex. H2O formula 
 
- <sup> Superscript </sup>    for  ex. A to the power any number.
+<sub> subscript </sub>      for ex. H2O formula 
+
+<sup> Superscript </sup>    for  ex. A to the power any number.
 
 # pre tag 
 
@@ -96,5 +97,4 @@ article tag : For an article on your page
 
 Aside Tag : for content a side main content(ads)
 <aside>
- 
  
