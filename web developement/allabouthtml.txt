@@ -98,3 +98,9 @@ article tag : For an article on your page
 Aside Tag : for content a side main content(ads)
 <aside>
  
+including more tags in anchor tag
+
+< a href="----link----" target="_main"> Google </a>         if we want to open that link in new tab use target
+
+<a
+
