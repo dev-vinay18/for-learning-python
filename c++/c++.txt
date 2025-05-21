@@ -1,0 +1,14 @@
+IMP things
+
+\\ data types
+int (4 bytes)
+char (1 bytes)
+float (4 bytes)
+bool (1 bytes)
+double (8 bytes)
+
+\\ type casting
+1] conversion  (it is implicit)  means going from small to big
+2] casting (it is explicit)   meanis going from big to samll  
+
+we can perform this in primetive deta types
