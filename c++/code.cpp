@@ -69,30 +69,30 @@ using namespace std;
 //     return 0;
 // }
 
-int main() {                                    // unary operators  
-    int a = 10;                                  // 1st type Increment ++ 
-    int b = a++;                                 // a++ --> kaam ; update
+// int main() {                                    // unary operators  
+//     int a = 10;                                  // 1st type Increment ++ 
+//     int b = a++;                                 // a++ --> kaam ; update
 
-    cout << "b = " << b << endl;
-    cout << "a = " << a << endl;
+//     cout << "b = " << b << endl;
+//     cout << "a = " << a << endl;
 
-    int a = 10;                                  // ++a --> update ; kaam
-    int b = ++a;
+//     int a = 10;                                  // ++a --> update ; kaam
+//     int b = ++a;
 
-    cout << "b = " << b << endl;
-    cout << "a = " << a << endl;
+//     cout << "b = " << b << endl;
+//     cout << "a = " << a << endl;
 
-    int a = 10;                                  // 2nd type Decrement --
-    int b = a--;                                 // a-- --> kaam ; update
+//     int a = 10;                                  // 2nd type Decrement --
+//     int b = a--;                                 // a-- --> kaam ; update
 
-    cout << "b = " << b << endl;
-    cout << "a = " << a << endl;
+//     cout << "b = " << b << endl;
+//     cout << "a = " << a << endl;
 
-    int a = 10;                                  // --a --> update ; kaam
-    int b = --a;
+//     int a = 10;                                  // --a --> update ; kaam
+//     int b = --a;
 
-    cout << "b = " << b << endl;
-    cout << "a = " << a << endl;
-    return 0;
+//     cout << "b = " << b << endl;
+//     cout << "a = " << a << endl;
+//     return 0;
     
-}
+// }
