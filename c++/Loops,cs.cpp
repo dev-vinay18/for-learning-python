@@ -63,7 +63,35 @@ using namespace std;
 
 // }
 
-int main() {
-     
+// int main() {                                                        // for finding odd or even for n.
+//     int n ;
+//     cout << "number :";
+//     cin >> n;
+
+//     if(n%2 == 0) {
+//         cout << "even number";
+//     } else {
+//         cout << "odd number";
+//     }
+//     cout << endl;
+// }
+
+int main() {                                                // for finding largest out of 3 numbers
+    int A,B,C;
+    cout << "enter A :";
+    cin >> A;
+    cout << "enter B :";
+    cin >> B;
+    cout << "enter C :";
+    cin >> C;
+
+    if((A >= B) && (A >= C)) {
+        cout << A;
+    }else if ((B >= A) && (B >= C)){
+        cout << B;
+    }else {
+        cout << C;
+    }
+    cout << endl;
 }
 
