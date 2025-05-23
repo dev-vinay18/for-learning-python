@@ -50,15 +50,20 @@ using namespace std;
 
 // }
 
-int main() {                                                    // while loop
-    int n = 10;
-    int count = 1;
+// int main() {                                                    // while loop (for counting numbers to n.)
+//     int n = 10;
+//     int count = 1;
 
-    while (count <= n ) {
-        cout << count << " ";
-        count++;
-    }
-    cout << endl;
-    return 0;
-    
+//     while (count <= n ) {
+//         cout << count << " ";
+//         count++;
+//     }
+//     cout << endl;
+//     return 0;
+
+// }
+
+int main() {
+     
 }
+
