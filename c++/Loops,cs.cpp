@@ -76,22 +76,76 @@ using namespace std;
 //     cout << endl;
 // }
 
-int main() {                                                // for finding largest out of 3 numbers
-    int A,B,C;
-    cout << "enter A :";
-    cin >> A;
-    cout << "enter B :";
-    cin >> B;
-    cout << "enter C :";
-    cin >> C;
+// int main() {                                                // for finding largest out of 3 numbers
+//     int A,B,C;
+    // cout << "enter A :";
+    // cin >> A;
+    // cout << "enter B :";
+    // cin >> B;
+    // cout << "enter C :";
+    // cin >> C;
+//     cout << "Enter three numbers: ";
+//     cin >> A >> B >> C;
 
-    if((A >= B) && (A >= C)) {
-        cout << A;
-    }else if ((B >= A) && (B >= C)){
-        cout << B;
-    }else {
-        cout << C;
+//     if((A >= B) && (A >= C)) {
+//         cout << A;
+//     }else if ((B >= A) && (B >= C)){
+//         cout << B;
+//     }else {
+//         cout << C;
+//     }
+//     cout << endl;
+// }
+
+// int main() {                                 // using for loop for finding n numbers
+//     int n = 1000;
+
+//     for(int i = 1 ; i <= n ; i++) {
+//         cout << i << " ";
+//     }
+//     cout << endl;
+//     return 0;
+// }
+
+// int main() {                                    // sum of numbers from 1 to n
+//     int n = 100000000;
+//     int sum = 0;
+
+//     for(int i = 1 ; i <= n; i++){
+//         sum += i;
+//     }
+//     cout << "total sum : " << sum << endl;
+//     return 0;
+
+// }
+
+// int main() {                                        // sum of numbers from 1 to n by using for loop
+//     int n = 3;
+//     int sum = 0;
+//     int i = 1;
+
+//     while (i <= n){
+//         sum += i;
+//         i++;
+//     }
+//     cout << "total sum : " << sum << endl;
+//     return 0;
+// }
+
+int main() {                                        // use of Break key woard.
+    int n = 7;
+    int sum = 0;
+    int i = 1;
+
+    while (i <= n){
+        // i++;
+        sum += i;
+        i++;
+        if (i == 2){
+            break;
+        }
     }
-    cout << endl;
+    cout << "total sum : " << sum << endl;
+    return 0;
 }
 
