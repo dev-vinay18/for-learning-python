@@ -108,7 +108,7 @@ using namespace std;
 // }
 
 // int main() {                                    // sum of numbers from 1 to n
-//     int n = 100000000;
+//     int n = 10;
 //     int sum = 0;
 
 //     for(int i = 1 ; i <= n; i++){
@@ -132,20 +132,52 @@ using namespace std;
 //     return 0;
 // }
 
-int main() {                                        // use of Break key woard.
-    int n = 7;
-    int sum = 0;
-    int i = 1;
+// int main() {                                        // use of Break key woard.
+//     int n = 7;
+//     int sum = 0;
+//     int i = 1;
 
-    while (i <= n){
-        // i++;
-        sum += i;
-        i++;
-        if (i == 2){
-            break;
+//     while (i <= n){
+//         sum += i;
+//         i++;
+//         if (i == 2){
+//             break;
+//         }
+//     }
+//     cout << "total sum : " << sum << endl;
+//     return 0;
+// }
+
+// int main(){                                              // sum of odd number.
+//     int n = 9;
+    // int sum = 0;
+
+//     for( int i = 1; i <= n; i++){
+//         if(i%2 != 0){
+//             cout << i << " ";
+//         }
+//     }
+//     cout << endl;
+//     return 0;
+// }
+
+// int main (){                                                // by diff method
+//     int n = 9;
+
+//     for( int i = 1; i <= n; i += 2){
+//         cout << i << " ";
+//     }
+//     cout << endl;
+//     return 0;
+
+int main() {
+    int n = 21;
+    int oddsum = 0;
+
+    for( int i =1 ; i <= n ; i++ ){
+        if(i%2 != 0){
+            oddsum += i ;
         }
     }
-    cout << "total sum : " << sum << endl;
-    return 0;
+    cout << oddsum << endl;
 }
-
