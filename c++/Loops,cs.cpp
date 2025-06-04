@@ -43,7 +43,7 @@ using namespace std;
 //     returnn 0;
 // }
 
-// int main(){                                                 // Ternary Operator / statements
+// int main(){                                                 // Ternary Operator / statements      Q is find the number is positive or negative.      
 //     int n = 23;
 
 //     cout << (n >= 0 ? "positive" : "negative") << endl;
