@@ -171,15 +171,32 @@ using namespace std;
 //     cout << endl;
 //     return 0;
 
-int main() {
-    int n = 21;
-    int oddsum = 0;
+// int main() {
+//     int n = 21;
+//     int oddsum = 0;
 
-    for( int i =1 ; i <= n ; i++ ){
+//     for( int i =1 ; i <= n ; i++ ){
+//         if(i%2 != 0){
+//         oddsum += i ;
+//         }
+//     }
+//     cout << oddsum << endl;
+// } 
+
+int main() {
+    int n = 100;
+    int oddsum = 0;
+    int i = 1;
+
+    while ( i <= n ){
         if(i%2 != 0){
-            oddsum += i ;
+            oddsum += i;
         }
+        i++;
     }
-    cout << oddsum << endl;
-} 
+    cout << oddsum << endl ;
+    
+    return 0;
+    
+}
  
