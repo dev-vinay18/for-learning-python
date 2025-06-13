@@ -16,4 +16,6 @@ we can perform this in primetive deta types
 # camelCase : in this if we count totalsum then 's' should be capital means totalSum is the correct
               writting in camelCase.(this also called proper convention.)
 
-(SHORT CUT KEY'S)for stoping infinite loop press command+c 
+# (SHORT CUT KEY'S)
+1)for stoping infinite loop press command+c 
+

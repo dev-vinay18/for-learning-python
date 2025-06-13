@@ -200,17 +200,38 @@ using namespace std;
     
 // }
 
-int main () {
+// int main () {                                            // Do while loop example Q.
 
-    int n = 10;
-    int i = 1;
+//     int n = 10;
+//     int i = 1;
 
-    do {
-        cout << i << " ";
-        i++;
-    }while(i <= n);
+//     do {
+//         cout << i << " ";
+//         i++;
+//     }while(i <= n);
 
-    cout << endl;
+//     cout << endl;
+//     return 0;
+// }
+
+int main () {                                           // Q.check no. is prime or not by for loop
+    int n = 45;
+    bool isPrime = true ;
+
+    for (int i = 2; i<=n-1 ; i++){
+        if(n%i == 0){
+            isPrime = false;
+            break;
+        }
+    }
+    if(isPrime == true){
+        cout << "prime no." << endl;
+    } else {
+        cout <<"non prime no." <<endl;
+    }
+    
     return 0;
 }
+
+
  
