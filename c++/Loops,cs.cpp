@@ -183,20 +183,34 @@ using namespace std;
 //     cout << oddsum << endl;
 // } 
 
-int main() {
-    int n = 100;
-    int oddsum = 0;
+// int main() {
+//     int n = 100;
+//     int oddsum = 0;
+//     int i = 1;
+
+//     while ( i <= n ){
+//         if(i%2 != 0){
+//             oddsum += i;
+//         }
+//         i++;
+//     }
+//     cout << oddsum << endl ;
+    
+//     return 0;
+    
+// }
+
+int main () {
+
+    int n = 10;
     int i = 1;
 
-    while ( i <= n ){
-        if(i%2 != 0){
-            oddsum += i;
-        }
+    do {
+        cout << i << " ";
         i++;
-    }
-    cout << oddsum << endl ;
-    
+    }while(i <= n);
+
+    cout << endl;
     return 0;
-    
 }
  
