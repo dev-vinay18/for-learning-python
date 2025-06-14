@@ -214,24 +214,40 @@ using namespace std;
 //     return 0;
 // }
 
-int main () {                                           // Q.check no. is prime or not by for loop
-    int n = 45;
-    bool isPrime = true ;
+// int main () {                                           // Q.check no. is prime or not by for loop  (Most important logic)
+//     int n = 45;
+//     bool isPrime = true ;
 
-    for (int i = 2; i<=n-1 ; i++){
-        if(n%i == 0){
+//     for (int i = 2; i<=n-1 ; i++){
+//         if(n%i == 0){
+//             isPrime = false;
+//             break;
+//         }
+//     }
+//     if(isPrime == true){
+//         cout << "prime no." << endl;
+//     } else {
+//         cout <<"non prime no." <<endl;
+//     }
+    
+//     return 0;
+// }
+
+int main(){
+    int n = 67;
+    bool isPrime = true;
+
+    for (int i = 2; i*i <= n ; i++){
+        if(i%n == 0){
             isPrime = false;
             break;
         }
     }
-    if(isPrime == true){
-        cout << "prime no." << endl;
-    } else {
-        cout <<"non prime no." <<endl;
-    }
     
-    return 0;
+    if(isPrime == true){
+        cout << "Prime no.\n";
+    }else {
+        cout << "Non prime no.\n";
+    }
 }
-
-
  
