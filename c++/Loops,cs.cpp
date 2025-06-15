@@ -233,21 +233,33 @@ using namespace std;
 //     return 0;
 // }
 
-int main(){
-    int n = 67;
-    bool isPrime = true;
+// int main(){
+//     int n = 67;
+//     bool isPrime = true;
 
-    for (int i = 2; i*i <= n ; i++){
-        if(i%n == 0){
-            isPrime = false;
-            break;
+//     for (int i = 2; i*i <= n ; i++){
+//         if(i%n == 0){
+//             isPrime = false;
+//             break;
+//         }
+//     }
+    
+//     if(isPrime == true){
+//         cout << "Prime no.\n";
+//     }else {
+//         cout << "Non prime no.\n";
+//     }
+// }
+
+int main() {
+    int n = 16;
+
+    for (int i = 1; i <= n; i++ ){
+        if(i%3 == 0){
+            cout << i << " ";
         }
     }
-    
-    if(isPrime == true){
-        cout << "Prime no.\n";
-    }else {
-        cout << "Non prime no.\n";
-    }
+    cout << endl;
+    return 0;
 }
  
