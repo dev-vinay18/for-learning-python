@@ -251,15 +251,27 @@ using namespace std;
 //     }
 // }
 
-int main() {
-    int n = 16;
+// int main() {                                                // sum of all numbers from 1 to n which are divisible by 3.
+//     int n =37;
 
-    for (int i = 1; i <= n; i++ ){
-        if(i%3 == 0){
-            cout << i << " ";
-        }
-    }
-    cout << endl;
-    return 0;
-}
+//     for (int i = 1; i <= n; i++ ){
+//         if(i%3 == 0){
+//             cout << i << " ";
+//         }
+//     }
+//     cout << endl;
+//     return 0;
+// }
+
+// int main() {                                            // print factorial of a number N.
+//     int n = 5;
+//     int sum = 1;
+    
+//     for(int i = 1 ; i <= n ; i++ ) {
+//         sum *= i ;
+//     }
+
+//     cout << sum << endl ;
+//     return 0;
+// }
  
