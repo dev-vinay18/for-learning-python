@@ -36,12 +36,14 @@ using namespace std;
 int main(){
     int n = 3;
     char ch = 'A';
+    int h = 0;
 
     for(int i= 0;i < n; i++){
         for(int j = 0;j < n; j++){
-            ch = ch + 1;
-            cout << ch ;
-            ch++;
+            // char ch = ch + 1;
+            char ne = ch + h;
+            cout << ne << " " ;
+            h++;
             
         }
         cout << '\n';
