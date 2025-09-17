@@ -313,17 +313,26 @@ using namespace std;
 //     return 0;
 // }
 
-int main(){
-    int n = 4;
+// int main(){
+//     int n = 4;
 
-    for(int i = 0; i < n; i++){
-        char ch = 'A';
+//     for(int i = 0; i < n; i++){
+//         char ch = 'A';
         
-        for(int j = 0; j < n; j++){
-            cout << ch << " ";
-            ch = ch + 1;
-        }
-        cout << endl;
-    }
-    return 0;
-}
+//         for(int j = 0; j < n; j++){
+//             cout << ch << " ";
+//             ch = ch + 1;
+//         }
+//         cout << endl;
+//     }
+//     return 0;
+// }
+
+// int main() {                                     // backward loop IMP.
+//     int n =4;
+
+//     for(int i = n; i > 0;i--){
+//         cout << i << endl;
+//     }
+//     return 0;
+// }
