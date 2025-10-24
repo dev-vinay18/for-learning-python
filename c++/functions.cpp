@@ -93,3 +93,60 @@ using namespace std;
 //     cout << primenum(67) << endl;
 // }
 
+// int primenum(int n){
+//     bool Isprime = true;
+
+//     for (int i = 2;i < n-1;i++){
+//         if(n % i == 0){
+//             Isprime = false;
+//             break;
+//         }
+//     }
+
+//     if(Isprime == true){
+//         cout << n << " " ;
+//     }
+
+//     // cout << endl;
+//     return 0;
+// }
+// int nthprimenums (int n){
+
+//     for(int i = 2; i <= n; i++ ){
+//         primenum(i);
+//         // return i;
+//     }
+//     cout << endl;
+//     return 0 ;
+    
+// }
+
+// int main (){
+//     cout << nthprimenums(56) << endl;
+// }
+
+int nthfibo(int n){
+    
+    int a = 0,b = 1,next;
+
+    if(n == 0){
+        cout << a;
+    }else if (n == 1){
+        cout << b;
+    }else{
+        for(int i = 2;i <= n ;i++){
+            next = a + b ;
+            a = b;
+            b = next;
+
+            
+        }
+        cout << b;
+        cout << endl;
+    }
+    return 0;
+}
+
+int main(){
+    cout << nthfibo(6) <<endl;
+}
