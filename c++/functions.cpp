@@ -125,28 +125,70 @@ using namespace std;
 //     cout << nthprimenums(56) << endl;
 // }
 
-int nthfibo(int n){
+// int nthfibo(int n){
     
-    int a = 0,b = 1,next;
+//     int a = 0,b = 1,next;
 
-    if(n == 0){
-        cout << a;
-    }else if (n == 1){
-        cout << b;
-    }else{
-        for(int i = 2;i <= n ;i++){
-            next = a + b ;
-            a = b;
-            b = next;
+//     if(n == 0){
+//         cout << a;
+//     }else if (n == 1){
+//         cout << b;
+//     }else{
+//         for(int i = 2;i <= n ;i++){
+//             next = a + b ;
+//             a = b;
+//             b = next;
 
             
-        }
-        cout << b;
-        cout << endl;
+//         }
+//         cout << b;
+//         cout << endl;
+//     }
+//     return 0;
+// }
+
+// int main(){
+//     cout << nthfibo(6) <<endl;
+// }
+
+// int decToBinary(int decnum){                                     // decimal to binary
+//     int ans = 0, power = 1;
+
+//     while(decnum > 0){
+//         int rem = decnum % 2;
+//         decnum /= 2;
+
+//         ans += (rem * power);
+//         power *= 10;
+//     }
+//     return ans;
+// }
+
+// int main(){
+//     // cout << decToBinary(89) << endl;
+//     // cout << decToBinary(335) << endl;
+
+//     for(int i = 1;i <= 10;i++){
+//         cout << decToBinary(i) << endl;
+
+//     }
+// }
+
+int binToDec(int binnum){
+    int ans = 0,power = 1;
+
+    while (binnum > 0)
+    {
+        int rem = binnum % 10;
+        ans += (rem * power);
+
+        binnum /= 10;
+        power *= 2;
     }
-    return 0;
+    return ans;
+    
 }
 
 int main(){
-    cout << nthfibo(6) <<endl;
+    cout << binToDec(101) << endl;
 }
