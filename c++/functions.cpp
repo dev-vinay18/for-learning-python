@@ -174,21 +174,45 @@ using namespace std;
 //     }
 // }
 
-int binToDec(int binnum){
-    int ans = 0,power = 1;
+// int binToDec(int binnum){
+//     int ans = 0,power = 1;
 
-    while (binnum > 0)
-    {
-        int rem = binnum % 10;
-        ans += (rem * power);
+//     while (binnum > 0)
+//     {
+//         int rem = binnum % 10;
+//         ans += (rem * power);
 
-        binnum /= 10;
-        power *= 2;
+//         binnum /= 10;
+//         power *= 2;
+//     }
+//     return ans;
+    
+// }
+
+// int main(){
+//     cout << binToDec(1010) << endl;
+// }
+
+int dectobin(int decnum) {
+    int ans = 0, pow = 1;
+
+    while(decnum > 0){
+        int rem = decnum % 2;
+        decnum /= 2;
+
+        ans += (rem*pow) ;
+        pow *= 10;
     }
     return ans;
-    
 }
 
-int main(){
-    cout << binToDec(101) << endl;
+// int main(){
+//     cout << dectobin(45) << endl ;
+
+// }
+
+int main() {
+    for(int i = 1;i <= 10; i++){
+        cout << dectobin(i) << endl ;
+    }
 }

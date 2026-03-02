@@ -1,5 +1,8 @@
 IMP things
 
+bits : smallest unit of a digital information(in the form 0/1)
+bytes : 1 byte is equal to 8 bits( it made from 8 bits)
+
 \\ data types
 int (4 bytes)
 char (1 bytes)
