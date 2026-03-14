@@ -193,26 +193,43 @@ using namespace std;
 //     cout << binToDec(1010) << endl;
 // }
 
-int dectobin(int decnum) {
-    int ans = 0, pow = 1;
+// int dectobin(int decnum) {
+//     int ans = 0, pow = 1;
 
-    while(decnum > 0){
-        int rem = decnum % 2;
-        decnum /= 2;
+//     while(decnum > 0){
+//         int rem = decnum % 2;
+//         decnum /= 2;
 
-        ans += (rem*pow) ;
-        pow *= 10;
+//         ans += (rem*pow) ;
+//         pow *= 10;
+//     }
+//     return ans;
+// }
+
+// // int main(){
+// //     cout << dectobin(45) << endl ;
+
+// // }
+
+// int main() {
+//     for(int i = 1;i <= 10; i++){
+//         cout << dectobin(i) << endl ;
+//     }
+// }
+
+int bintodec (int binnum) {
+    int ans = 0 , power = 1;
+
+    while(binnum > 0){
+        int rem = binnum % 10;
+        binnum /= 10;
+
+        ans += (rem * power);
+        power *= 2;
     }
     return ans;
 }
 
-// int main(){
-//     cout << dectobin(45) << endl ;
-
-// }
-
 int main() {
-    for(int i = 1;i <= 10; i++){
-        cout << dectobin(i) << endl ;
-    }
+    cout << bintodec(10111) << endl;
 }
